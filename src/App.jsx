@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Header_103022400061 from './components/Header';
+import TrendingThreads_103022400061 from './components/TrendingThreads';
 import ThreadList_103022400061 from './components/ThreadList';
 import ThreadForm_103022400061 from './components/ThreadForm';
 
@@ -49,6 +50,7 @@ export default function App_103022400061() {
                     <>
                         <h2 className="text-xl font-bold text-gray-800">Latest Threads</h2>
                         <ThreadList_103022400061 threads_103022400061={threads_103022400061} />
+                        <TrendingThreads_103022400061 />
                     </>
                 )}
 
